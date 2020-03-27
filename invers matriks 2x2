@@ -34,5 +34,12 @@ cout << "Matriks 2x2 : "<< "\n";
 	cout << "Adjoint A = "<<"\n";
 	cout << *(*(pA+1)+1)<< "\t" << *(*(pA)+1) * -1 <<endl;			 
 	cout << *(*(pA+1)) * -1 << "\t" <<**pA <<endl << endl;
+	
+	cout << "Invers A = "<<"\n";
+	cout << *(*(pA+1)+1)/det << "\t" << (*(*(pA)+1) * -1)/det <<endl;			 
+	cout << (*(*(pA+1)) * -1)/det<< "\t" <<**pA/det <<endl;
+	return 0;
+}
+
     
 	
