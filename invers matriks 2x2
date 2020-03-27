@@ -30,3 +30,9 @@ cout << "Matriks 2x2 : "<< "\n";
 	cout << *(*(pA+1))<< "\t" <<*(*(pA+1)+1) <<endl;
 	det = (**pA* *(*(pA+1)+1))- (*(*(pA)+1) * *(*(pA+1))); 
 	cout << "Determinan A = " << det << endl << endl;
+	
+	cout << "Adjoint A = "<<"\n";
+	cout << *(*(pA+1)+1)<< "\t" << *(*(pA)+1) * -1 <<endl;			 
+	cout << *(*(pA+1)) * -1 << "\t" <<**pA <<endl << endl;
+    
+	
