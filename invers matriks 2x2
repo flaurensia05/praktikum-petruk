@@ -1,8 +1,8 @@
-
 //Nama anggota kelompok:
 //Melinda Sari (1917051007)
 //Diah Adi Sriatna (1917051009)
 //Flaurensia Riahta Tarigan (1917051011)
+
 #include <iostream>
 using namespace std;
 int main(){
