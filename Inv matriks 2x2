@@ -1,0 +1,15 @@
+cout << "Matriks 2x2 : "<< "\n";
+	for (int i=0;i<2;i++ ){
+		for (int j=0;j<2;j++){
+			cout << *(*( pA +i) + j) << "\t";
+	}
+		cout << endl ;
+	}
+	cout << "======INVERS MATRIKS 2X2======"<<endl;
+	int det;
+	cout << "\n Misalkan MATRIKS A" << endl<< endl;
+	cout<< "A = "<< "\n";
+	cout << **pA<< "\t" << *(*(pA)+1)<<endl;			 
+	cout << *(*(pA+1))<< "\t" <<*(*(pA+1)+1) <<endl;
+	det = (**pA* *(*(pA+1)+1))- (*(*(pA)+1) * *(*(pA+1))); 
+	cout << "Determinan A = " << det << endl << endl;
